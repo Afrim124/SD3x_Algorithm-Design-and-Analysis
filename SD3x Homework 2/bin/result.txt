@@ -1,0 +1,9 @@
+14 tests passed.
+7 tests failed.
+#1. optimalInterval() throws exception java.lang.IndexOutOfBoundsException: Index: 9, Size: 9 on large interval test 2
+#2. optimalInterval() throws exception java.lang.IndexOutOfBoundsException: Index: 8, Size: 8 on large interval test
+#3. optimalGridPath() throws exception java.lang.ArrayIndexOutOfBoundsException: 3 on test with a 3x3 grid
+#4. optimalGridPath() throws exception java.lang.ArrayIndexOutOfBoundsException: 3000 on very large grid test 2
+#5. optimalGridPath() throws exception java.lang.ArrayIndexOutOfBoundsException on very large grid test 3 with negative numbers
+#6. optimalInterval() throws exception java.lang.IndexOutOfBoundsException: Index: 12, Size: 12 on large interval test 3
+#7. optimalGridPath()  is incorrect on 4x4 grid

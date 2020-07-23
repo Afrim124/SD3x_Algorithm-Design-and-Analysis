@@ -1,0 +1,16 @@
+8 tests passed.
+14 tests failed.
+#1. mustExist() test on large graph with many edges that must exist is incorrect
+#2. arbitrageOpportunity() is incorrect on large graph 2
+#3.  One of the test cases timed out, probably due to an inefficient solution (arbitrageLarge4(PrivateTests))
+#4. mustExist() test on large graph with multiple weights, 2 must exist, has incorrect number of edges
+#5. arbitrageOpportunity() does not output a cycle of negative weight on test with small arbitrage cycle, and some additional vertices
+#6. arbitrageOpportunity() throws Exception java.lang.ArrayIndexOutOfBoundsException: 12 on test with medium-size graph
+#7. mustNotExist() test on small cyclical graph 2has incorrect number of edges
+#8. mustNotExist() test on graph with multiple cycles outputs incorrect number of edges
+#9.  One of the test cases timed out, probably due to an inefficient solution (noArbitrageLarge1(PrivateTests))
+#10.  One of the test cases timed out, probably due to an inefficient solution (noArbitrageLarge3(PrivateTests))
+#11. mustExist() test on medium size graph, 1 must exist, has incorrect number of edges
+#12. mustExist() test on medium size graph with multiple weights, 2 must exist, has incorrect number of edges
+#13. mustNotExist() test on 10-node graph with many edges outputs incorrect number of edges
+#14. mustNotExist() test on 10-node graph 2 with many edges outputs incorrect number of edges

@@ -1,0 +1,10 @@
+test/result.txt
+4 tests passed.
+7 tests failed.
+#1. numShortestPaths() is incorrect on large graph 4, between nodes with 2 distinct shortest paths
+#2. java.lang.OutOfMemoryError: Java heap space occurs at Graph$DepthFirstSearch.<init>(Graph.java:148)
+#3. A test threw java.lang.StackOverflowError at java.util.HashMap.hash(HashMap.java:338)
+#4. java.lang.OutOfMemoryError: Java heap space occurs at java.util.Arrays.copyOf(Arrays.java:3181)
+#5. numShortestPaths() is incorrect on test with large graph, between two nodes with 2 distinct shortest paths
+#6. numShortestPaths() is incorrect on test with large graph 2, where two nodes have many distinct shortest paths
+#7. numShortestPaths() is incorrect on graph with exponential number of distinct shortest paths

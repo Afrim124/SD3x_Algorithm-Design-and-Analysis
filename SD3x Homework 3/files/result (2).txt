@@ -1,0 +1,5 @@
+8 tests passed.
+3 tests failed.
+#1. java.lang.OutOfMemoryError: Java heap space occurs at java.lang.Integer.valueOf(Integer.java:832)
+#2. A test threw java.lang.StackOverflowError at java.util.HashMap.putVal(HashMap.java:630)
+#3. java.lang.OutOfMemoryError: Java heap space occurs at java.util.Arrays.copyOf(Arrays.java:3181)
